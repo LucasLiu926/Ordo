@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ordo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌿 Ordo</h1>
+  <p>A gentle planner to help you stay organized and check in on your feelings.</p>
+
+  <form id="taskForm">
+    <input type="text" id="taskName" placeholder="Task name" required>
+    <input type="date" id="taskDate" required>
+    <label>Mood (1–5): <input type="number" id="mood" min="1" max="5" required></label>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <div id="messageBox"></div>
+  <h2>📅 Your Weekly Plan</h2>
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

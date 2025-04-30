@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f9f6;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    color: #2c786c;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 6px 10px;
+    background-color: #2c786c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #messageBox {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e0f7f1;
+    border-left: 5px solid #2c786c;
+    border-radius: 5px;
+  }
+  
+  #taskList li {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
